@@ -4,7 +4,7 @@
 
 ## 项目简介
 
-cllX-FS-Pro 是一个基于后量子密码学的文件加密系统，提供军事级别的数据保护。
+cllX-FS-Pro 是一个基于后量子密码学的文件加密系统，提供基础的数据保护。
 
 核心特性：
 - 后量子安全：ML-KEM-768 (NIST Level 3) 抵抗量子计算机攻击
@@ -78,8 +78,8 @@ cllxfs decrypt -i output.cllx -o decrypted.txt -k output.cllx.key
 构建步骤：
 ```bash
 # 克隆仓库
-git clone https://github.com/yourusername/cllX-FS-Pro.git
-cd cllX-FS-Pro
+git clone https://github.com/mamajunya/cllX-FS.git
+cd cllX-FS
 
 # 构建 CLI 版本
 cargo build --release --bin cllxfs
@@ -249,8 +249,8 @@ A: 非常安全。使用 NIST 标准的后量子算法，可抵抗量子计算�
 
 ## 联系方式
 
-- 项目主页: https://github.com/yourusername/cllX-FS-Pro
-- 问题反馈: https://github.com/yourusername/cllX-FS-Pro/issues
+- 项目主页: https://github.com/mamajunya/cllX-FS-Pro
+- 问题反馈: https://github.com/mamajunya/cllX-FS-Pro/issues
 - 邮箱: 2061647815@qq.com
 
 cllX-FS-Pro - 自我数据，面向未来
