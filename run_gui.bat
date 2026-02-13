@@ -1,0 +1,3 @@
+@echo off
+echo Starting cllX-FS-Pro GUI...
+.\target\release\cllxfs-gui.exe
